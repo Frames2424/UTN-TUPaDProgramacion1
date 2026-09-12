@@ -141,7 +141,8 @@ while True:
                         print("Turno reservado")
                         print(f"Cupos restantes: {cupos[indice]}")
                     else:
-                        print("No hay cupos disponibles. :C").title()
+                        print("No hay cupos disponibles. :C")
+
                 else:
                     cupos[indice] = cupos[indice] + 1
                     print("Se canceló el turno")
