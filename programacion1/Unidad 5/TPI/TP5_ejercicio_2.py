@@ -34,6 +34,7 @@ match opcion:
             productos_ordenados.remove(opcion_eliminar)
             for i in range(len(productos_ordenados)):
                 print(f"Producto {i}: {productos_ordenados[i]}")
+                
         else:
             print("Error no existe.")
     case "2":
